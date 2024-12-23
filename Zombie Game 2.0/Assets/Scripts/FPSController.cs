@@ -153,6 +153,11 @@ public class FPSController : MonoBehaviour
         
 
         #endregion
+
+        
+    }
+
+    #region Handles Collision
     
         void OnTriggerEnter(Collider other)
         {
@@ -163,5 +168,6 @@ public class FPSController : MonoBehaviour
                 // Add logic here (e.g., deal damage, trigger an event, etc.)
             }
         }
-    }
+
+        #endregion
 }
