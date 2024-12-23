@@ -12,8 +12,8 @@ public class FPSController : MonoBehaviour
     public float Stamina, MaxStamina, Health, MaxHealth;
 
     public Camera playerCamera;
-    public float walkSpeed = 3f;
-    public float runSpeed = 6f;
+    public float walkSpeed = 100f;
+    public float runSpeed = 1000f;
     public float jumpPower = 4f;
     public float gravity = 10f;
 
