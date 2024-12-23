@@ -5,7 +5,7 @@ using UnityEngine;
 public class AI : MonoBehaviour
 {
     public Transform Player;
-    int MoveSpeed = 2;
+    int MoveSpeed = 1;
     int MaxDist = 5;
     int MinDist = 0;
 
