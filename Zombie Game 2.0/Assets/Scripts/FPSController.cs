@@ -153,11 +153,8 @@ public class FPSController : MonoBehaviour
         
 
         #endregion
-
-        
     
-    }
-    void OnTriggerEnter(Collider other)
+        void OnTriggerEnter(Collider other)
         {
             // Check if the collided object is the Player
             if (other.gameObject.tag == "enemy")
@@ -166,4 +163,5 @@ public class FPSController : MonoBehaviour
                 // Add logic here (e.g., deal damage, trigger an event, etc.)
             }
         }
+    }
 }

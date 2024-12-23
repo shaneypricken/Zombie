@@ -6,7 +6,7 @@ public class AI : MonoBehaviour
 {
     public Transform Player;
     int MoveSpeed = 1;
-    int MaxDist = 5;
+    int MaxDist = 100;
     int MinDist = 0;
 
     float gravityStrength = 9.8f;
@@ -49,7 +49,5 @@ public class AI : MonoBehaviour
             }
 
         }
-
-        
     }
 }
