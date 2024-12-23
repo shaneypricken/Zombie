@@ -144,6 +144,11 @@ public class FPSController : MonoBehaviour
 
         #region Handles Health
 
+        if(Input.GetKeyDown("f")){
+            Health -=1;
+        }
+
+        HealthBar.fillAmount = Health / MaxHealth;
 
         
 
@@ -151,6 +156,3 @@ public class FPSController : MonoBehaviour
     
     }
 }
-
-
-
