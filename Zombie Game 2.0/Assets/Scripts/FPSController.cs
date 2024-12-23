@@ -159,15 +159,15 @@ public class FPSController : MonoBehaviour
 
     #region Handles Collision
     
-    void OnTriggerEnter(Collider other)
-    {
-        // Check if the collided object is the Player
-        if (other.gameObject.tag == "enemy")
+        void OnTriggerEnter(Collider other)
         {
-            Health -= 1;
-            // Add logic here (e.g., deal damage, trigger an event, etc.)
+            // Check if the collided object is the Player
+            if (other.gameObject.tag == "enemy")
+            {
+                Health -= 1;
+                // Add logic here (e.g., deal damage, trigger an event, etc.)
+            }
         }
-    }
 
         #endregion
 }
