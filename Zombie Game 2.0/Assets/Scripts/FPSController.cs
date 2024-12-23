@@ -20,6 +20,9 @@ public class FPSController : MonoBehaviour
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
 
+    private Vector3 crouchScale = new Vector3(1, 0.65f, 1);
+    private Vector3 playerScale = new Vector3(1, 1f, 1);
+
     
 
     Vector3 moveDirection = Vector3.zero;
@@ -62,6 +65,18 @@ public class FPSController : MonoBehaviour
             {
                 isRunning = true;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            transform.localScale = crouchScale;
+            transform.position = new Vector3(transform.position.x, transform.position.y - 0.35f, transform.position.z);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            transform.localScale = playerScale;
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.35f, transform.position.z);
         }
 
         float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
@@ -153,6 +168,8 @@ public class FPSController : MonoBehaviour
         
 
         #endregion
+
+
 
         
     }
