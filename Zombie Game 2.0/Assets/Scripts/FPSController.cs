@@ -60,38 +60,7 @@ public class FPSController : MonoBehaviour
 
     void Update()
     {
-        #region Handles Sliding
-
-        // If Left Control key is held down, start sliding
-        if (Input.GetKey(KeyCode.LeftControl) && !isSliding && characterController.isGrounded)
-        {
-            StartSliding();
-        }
-
-        // If sliding, update the slide timer and apply sliding
-        if (isSliding)
-        {
-            slideTimer += Time.deltaTime;
-
-            // Apply slide movement in the forward direction
-            Vector3 slideDirection = transform.forward;  // Direction to slide in (forward)
-            moveDirection = new Vector3(slideDirection.x * slideSpeed, moveDirection.y, slideDirection.z * slideSpeed);
-
-            // Stop sliding after the duration has passed
-            if (slideTimer >= slideDuration)
-            {
-                StopSliding();
-            }
-        }
-
-        // Stop sliding when Left Control key is released
-        if (Input.GetKeyUp(KeyCode.LeftControl))
-        {
-            StopSliding();
-        }
-
-        #endregion
-
+        
         #region Handles Movement
 
         Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -191,9 +160,12 @@ public class FPSController : MonoBehaviour
         #endregion
 
         #region Handles Health
+
+
         HealthBar.fillAmount = Health / MaxHealth;
         #endregion
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -215,68 +187,11 @@ public class FPSController : MonoBehaviour
 >>>>>>> parent of 6c09d9e (crouch)
         
 >>>>>>> parent of 6c09d9e (crouch)
+=======
+
+
+>>>>>>> 863fcafd11066824cb15a3baf01087106d4e51e4
     }
 
-    #region Mantle Functions
-
-    void StartMantling()
-    {
-        if (!isMantling)
-        {
-            isMantling = true;
-            // Apply an upward force to simulate the player climbing
-            moveDirection.y = jumpPower * 2;  // Mantling with a higher jump power
-            StartCoroutine(MantleCooldown()); // Wait for the cooldown to finish mantling
-        }
-    }
-
-    IEnumerator MantleCooldown()
-    {
-        // Disable movement temporarily while mantling
-        canMove = false;
-        yield return new WaitForSeconds(0.5f); // Mantle action duration
-        canMove = true;
-        isMantling = false;
-    }
-
-    #endregion
-
-    #region Wall Detection
-
-    // Raycast to detect if the player is near a wall
-    void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        if (hit.collider.CompareTag("Wall"))
-        {
-            canMantle = true;
-        }
-    }
-
-    void OnControllerColliderExit(ControllerColliderHit hit)
-    {
-        if (hit.collider.CompareTag("Wall"))
-        {
-            canMantle = false;
-        }
-    }
-
-    #endregion
-
-    #region Sliding Functions
-
-    // Start the sliding
-    void StartSliding()
-    {
-        isSliding = true;
-        slideTimer = 0f;  // Reset the slide timer
-    }
-
-    // Stop the sliding
-    void StopSliding()
-    {
-        isSliding = false;
-        moveDirection = Vector3.zero;  // Stop sliding by setting velocity to zero
-    }
-
-    #endregion
+ 
 }
