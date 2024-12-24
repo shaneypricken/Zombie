@@ -31,12 +31,6 @@ public class FPSController : MonoBehaviour
     private bool canRun = true; // New variable to track running availability
     private float staminaDepletionTime = 0f; // Time when stamina reached 0
 
-    private bool canMantle = false; // To check if the player is close to a wall for mantling
-
-    private float lastSpacePressTime = 0f; // For double space detection
-    private float doubleTapTimeLimit = 0.3f; // Time window to detect double-tap
-    private bool isMantling = false; // To check if the player is currently mantling
-
     public bool canMove = true;
 
     private CharacterController characterController;
