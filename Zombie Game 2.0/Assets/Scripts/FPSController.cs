@@ -138,6 +138,20 @@ public class FPSController : MonoBehaviour
             }
         }
 
+        // Stamina bar colors
+        // Blue
+        if (Stamina > MaxStamina / 2){
+            StaminaBar.color = new Color(0.337f, 0.643f, 0.819f);
+        }
+        // Yellow
+        else if (Stamina <= MaxStamina / 2 && Stamina > 362) {
+            StaminaBar.color = new Color(0.820f, 0.808f, 0.468f);
+        }
+        // Red
+        else{
+            StaminaBar.color = new Color(0.603f, 0.320f, 0.293f);
+        }
+
         // Update stamina bar
         StaminaBar.fillAmount = Stamina / MaxStamina;
 
@@ -152,6 +166,16 @@ public class FPSController : MonoBehaviour
 
 
 
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Check if the collided object is the Player
+        if (other.gameObject.tag == "enemy")
+        {
+            Health -= 1;
+            // Add logic here (e.g., deal damage, trigger an event, etc.)
+        }
     }
 
  
