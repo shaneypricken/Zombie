@@ -25,9 +25,12 @@ public class FPSController : MonoBehaviour
     private bool isSliding = false;  // Check if the player is currently sliding
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private Vector3 crouchScale = new Vector3(1, 0.65f, 1);
     private Vector3 playerScale = new Vector3(1, 1f, 1);
 =======
+=======
+>>>>>>> parent of 6c09d9e (crouch)
     
 >>>>>>> parent of 6c09d9e (crouch)
 
@@ -192,6 +195,7 @@ public class FPSController : MonoBehaviour
         #endregion
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         #region Mantle Detection
 
@@ -207,6 +211,8 @@ public class FPSController : MonoBehaviour
 
         #endregion
 =======
+=======
+>>>>>>> parent of 6c09d9e (crouch)
         
 >>>>>>> parent of 6c09d9e (crouch)
     }

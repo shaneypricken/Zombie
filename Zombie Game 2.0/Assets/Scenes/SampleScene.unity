@@ -125,7 +125,11 @@ NavMeshSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1297378
+=======
+--- !u!1 &5128684
+>>>>>>> parent of 6c09d9e (crouch)
 =======
 --- !u!1 &5128684
 >>>>>>> parent of 6c09d9e (crouch)
@@ -142,6 +146,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +167,8 @@ GameObject:
 >>>>>>> parent of 6c09d9e (crouch)
 =======
 >>>>>>> parent of 6c09d9e (crouch)
+=======
+>>>>>>> parent of 6c09d9e (crouch)
   - component: {fileID: 5128685}
   - component: {fileID: 5128688}
   - component: {fileID: 5128687}
@@ -176,6 +183,9 @@ GameObject:
 --- !u!4 &5128685
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6c09d9e (crouch)
+=======
 >>>>>>> parent of 6c09d9e (crouch)
 =======
 >>>>>>> parent of 6c09d9e (crouch)
@@ -186,6 +196,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +425,8 @@ Transform:
 >>>>>>> parent of 6c09d9e (crouch)
 =======
 >>>>>>> parent of 6c09d9e (crouch)
+=======
+>>>>>>> parent of 6c09d9e (crouch)
   m_GameObject: {fileID: 5128684}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -426,6 +439,9 @@ Transform:
 --- !u!65 &5128686
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6c09d9e (crouch)
+=======
 >>>>>>> parent of 6c09d9e (crouch)
 =======
 >>>>>>> parent of 6c09d9e (crouch)
@@ -439,7 +455,11 @@ BoxCollider:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 3908206}
+=======
+  m_GameObject: {fileID: 5128684}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_GameObject: {fileID: 5128684}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -466,7 +486,11 @@ BoxCollider:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!23 &3908209
+=======
+--- !u!23 &5128687
+>>>>>>> parent of 6c09d9e (crouch)
 =======
 --- !u!23 &5128687
 >>>>>>> parent of 6c09d9e (crouch)
@@ -484,7 +508,11 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 3908206}
+=======
+  m_GameObject: {fileID: 5128684}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_GameObject: {fileID: 5128684}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -502,7 +530,11 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MotionVectors: 0
+=======
+  m_MotionVectors: 1
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_MotionVectors: 1
 >>>>>>> parent of 6c09d9e (crouch)
@@ -522,7 +554,11 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e419a011ef2bd8c4391204332b828aaa, type: 2}
+=======
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -541,7 +577,11 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ScaleInLightmap: 100
+=======
+  m_ScaleInLightmap: 1
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_ScaleInLightmap: 1
 >>>>>>> parent of 6c09d9e (crouch)
@@ -568,7 +608,11 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!33 &3908210
+=======
+--- !u!33 &5128688
+>>>>>>> parent of 6c09d9e (crouch)
 =======
 --- !u!33 &5128688
 >>>>>>> parent of 6c09d9e (crouch)
@@ -583,6 +627,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1427,6 +1472,9 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17874814}
+=======
+  m_GameObject: {fileID: 5128684}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_GameObject: {fileID: 5128684}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -106243,8 +106291,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 438609972}
 =======
+=======
+>>>>>>> parent of 6c09d9e (crouch)
 =======
 >>>>>>> parent of 6c09d9e (crouch)
 =======
