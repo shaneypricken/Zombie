@@ -24,8 +24,12 @@ public class FPSController : MonoBehaviour
     private float slideTimer = 0f;  // Timer to track the slide duration
     private bool isSliding = false;  // Check if the player is currently sliding
 
+<<<<<<< HEAD
     private Vector3 crouchScale = new Vector3(1, 0.65f, 1);
     private Vector3 playerScale = new Vector3(1, 1f, 1);
+=======
+    
+>>>>>>> parent of 6c09d9e (crouch)
 
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -187,6 +191,7 @@ public class FPSController : MonoBehaviour
         HealthBar.fillAmount = Health / MaxHealth;
         #endregion
 
+<<<<<<< HEAD
 
         #region Mantle Detection
 
@@ -201,6 +206,9 @@ public class FPSController : MonoBehaviour
         }
 
         #endregion
+=======
+        
+>>>>>>> parent of 6c09d9e (crouch)
     }
 
     #region Mantle Functions
