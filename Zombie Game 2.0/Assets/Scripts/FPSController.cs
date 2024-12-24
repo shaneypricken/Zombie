@@ -19,10 +19,6 @@ public class FPSController : MonoBehaviour
 
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
-    public float slideSpeed = 15f;  // Speed of sliding
-    public float slideDuration = 1.5f;  // Duration of the slide
-    private float slideTimer = 0f;  // Timer to track the slide duration
-    private bool isSliding = false;  // Check if the player is currently sliding
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +158,7 @@ public class FPSController : MonoBehaviour
         #region Handles Health
 
 
+        //hi jonny
         HealthBar.fillAmount = Health / MaxHealth;
         #endregion
 
