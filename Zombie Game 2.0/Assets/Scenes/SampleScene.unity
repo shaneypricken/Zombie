@@ -123,7 +123,11 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1297378
+=======
+--- !u!1 &5128684
+>>>>>>> parent of 6c09d9e (crouch)
 =======
 --- !u!1 &5128684
 >>>>>>> parent of 6c09d9e (crouch)
@@ -134,6 +138,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1297379}
   - component: {fileID: 1297382}
@@ -148,6 +153,8 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &1297379
 =======
+=======
+>>>>>>> parent of 6c09d9e (crouch)
   - component: {fileID: 5128685}
   - component: {fileID: 5128688}
   - component: {fileID: 5128687}
@@ -160,12 +167,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5128685
+<<<<<<< HEAD
+>>>>>>> parent of 6c09d9e (crouch)
+=======
 >>>>>>> parent of 6c09d9e (crouch)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1297378}
   serializedVersion: 2
@@ -388,6 +399,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &3908208
 =======
+=======
+>>>>>>> parent of 6c09d9e (crouch)
   m_GameObject: {fileID: 5128684}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -398,6 +411,9 @@ Transform:
   m_Father: {fileID: 1605205401}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &5128686
+<<<<<<< HEAD
+>>>>>>> parent of 6c09d9e (crouch)
+=======
 >>>>>>> parent of 6c09d9e (crouch)
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -405,7 +421,11 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 3908206}
+=======
+  m_GameObject: {fileID: 5128684}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_GameObject: {fileID: 5128684}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -424,7 +444,11 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!23 &3908209
+=======
+--- !u!23 &5128687
+>>>>>>> parent of 6c09d9e (crouch)
 =======
 --- !u!23 &5128687
 >>>>>>> parent of 6c09d9e (crouch)
@@ -434,7 +458,11 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 3908206}
+=======
+  m_GameObject: {fileID: 5128684}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_GameObject: {fileID: 5128684}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -444,7 +472,11 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MotionVectors: 0
+=======
+  m_MotionVectors: 1
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_MotionVectors: 1
 >>>>>>> parent of 6c09d9e (crouch)
@@ -456,7 +488,11 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e419a011ef2bd8c4391204332b828aaa, type: 2}
+=======
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -467,7 +503,11 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ScaleInLightmap: 100
+=======
+  m_ScaleInLightmap: 1
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_ScaleInLightmap: 1
 >>>>>>> parent of 6c09d9e (crouch)
@@ -486,7 +526,11 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!33 &3908210
+=======
+--- !u!33 &5128688
+>>>>>>> parent of 6c09d9e (crouch)
 =======
 --- !u!33 &5128688
 >>>>>>> parent of 6c09d9e (crouch)
@@ -495,6 +539,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 3908206}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
@@ -1337,6 +1382,9 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17874814}
+=======
+  m_GameObject: {fileID: 5128684}
+>>>>>>> parent of 6c09d9e (crouch)
 =======
   m_GameObject: {fileID: 5128684}
 >>>>>>> parent of 6c09d9e (crouch)
@@ -106145,8 +106193,11 @@ Transform:
   - {fileID: 1603545585}
   - {fileID: 185579491}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 438609972}
 =======
+=======
+>>>>>>> parent of 6c09d9e (crouch)
   - {fileID: 5128685}
   m_Father: {fileID: 0}
 >>>>>>> parent of 6c09d9e (crouch)
