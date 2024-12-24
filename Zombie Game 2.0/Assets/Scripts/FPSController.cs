@@ -37,12 +37,6 @@ public class FPSController : MonoBehaviour
     private bool canRun = true; // New variable to track running availability
     private float staminaDepletionTime = 0f; // Time when stamina reached 0
 
-    private bool canMantle = false; // To check if the player is close to a wall for mantling
-
-    private float lastSpacePressTime = 0f; // For double space detection
-    private float doubleTapTimeLimit = 0.3f; // Time window to detect double-tap
-    private bool isMantling = false; // To check if the player is currently mantling
-
     public bool canMove = true;
 
     private CharacterController characterController;
@@ -150,6 +144,20 @@ public class FPSController : MonoBehaviour
             }
         }
 
+        // Stamina bar colors
+        // Blue
+        if (Stamina > MaxStamina / 2){
+            StaminaBar.color = new Color(0.337f, 0.643f, 0.819f);
+        }
+        // Yellow
+        else if (Stamina <= MaxStamina / 2 && Stamina > 362) {
+            StaminaBar.color = new Color(0.820f, 0.808f, 0.468f);
+        }
+        // Red
+        else{
+            StaminaBar.color = new Color(0.603f, 0.320f, 0.293f);
+        }
+
         // Update stamina bar
         StaminaBar.fillAmount = Stamina / MaxStamina;
 
@@ -188,6 +196,16 @@ public class FPSController : MonoBehaviour
 
 
 >>>>>>> 863fcafd11066824cb15a3baf01087106d4e51e4
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Check if the collided object is the Player
+        if (other.gameObject.tag == "enemy")
+        {
+            Health -= 1;
+            // Add logic here (e.g., deal damage, trigger an event, etc.)
+        }
     }
 
  
