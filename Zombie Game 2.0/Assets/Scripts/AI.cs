@@ -49,5 +49,17 @@ public class AI : MonoBehaviour
             }
 
         }
+
+        
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Check if the collided object is the Player
+        if (other.gameObject.name == "Bullet(Clone)")
+        {
+            Destroy(gameObject);
+            // Add logic here (e.g., deal damage, trigger an event, etc.)
+        }
     }
 }
