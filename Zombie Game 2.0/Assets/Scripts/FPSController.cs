@@ -20,6 +20,7 @@ public class FPSController : MonoBehaviour
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
 
+
     private Vector3 crouchScale = new Vector3(1, 0.65f, 1);
     private Vector3 playerScale = new Vector3(1, 1f, 1);
 
@@ -37,12 +38,6 @@ public class FPSController : MonoBehaviour
 
     void Start()
     {
-        // Get the main camera
-Camera camera = Camera.main;
-
-// Set the near and far clipping planes
-camera.nearClipPlane = 0.3f;  // Set the near render distance (objects closer than this will not be rendered)
-camera.farClipPlane = 99999f;  // Set the far render distance (objects farther than this will not be rendered)
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -170,8 +165,7 @@ camera.farClipPlane = 99999f;  // Set the far render distance (objects farther t
         HealthBar.fillAmount = Health / MaxHealth;
         #endregion
 
-
-
+       
     }
 
     void OnTriggerEnter(Collider other)
