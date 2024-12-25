@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 [RequireComponent(typeof(CharacterController))]
 public class FPSController : MonoBehaviour
@@ -16,6 +17,8 @@ public class FPSController : MonoBehaviour
     public float runSpeed = 10f;
     public float jumpPower = 4f;
     public float gravity = 10f;
+
+    public TextMeshProUGUI displayText;
 
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
@@ -41,6 +44,7 @@ public class FPSController : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        displayText.gameObject.SetActive(false);
     }
 
     void Update()
@@ -163,6 +167,10 @@ public class FPSController : MonoBehaviour
 
         //hi jonny
         HealthBar.fillAmount = Health / MaxHealth;
+
+        if (Health == 0){
+            displayText.gameObject.SetActive(true);
+        }
         #endregion
 
        
