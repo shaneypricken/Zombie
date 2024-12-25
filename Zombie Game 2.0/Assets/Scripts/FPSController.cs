@@ -12,7 +12,7 @@ public class FPSController : MonoBehaviour
     public float Stamina, MaxStamina, Health, MaxHealth;
 
     public Camera playerCamera;
-    public float walkSpeed = 9999999f;
+    public float walkSpeed = 5f;
     public float runSpeed = 10f;
     public float jumpPower = 4f;
     public float gravity = 10f;
@@ -22,7 +22,6 @@ public class FPSController : MonoBehaviour
 
     private Vector3 crouchScale = new Vector3(1, 0.65f, 1);
     private Vector3 playerScale = new Vector3(1, 1f, 1);
-
 
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -37,12 +36,6 @@ public class FPSController : MonoBehaviour
 
     void Start()
     {
-        // Get the main camera
-Camera camera = Camera.main;
-
-// Set the near and far clipping planes
-camera.nearClipPlane = 0.3f;  // Set the near render distance (objects closer than this will not be rendered)
-camera.farClipPlane = 99999f;  // Set the far render distance (objects farther than this will not be rendered)
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
