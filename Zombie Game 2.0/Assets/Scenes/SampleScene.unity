@@ -133744,12 +133744,16 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
   m_LocalPosition: {x: -14335, y: 55, z: -76.848}
+<<<<<<< HEAD
   m_LocalScale: {x: 31.990936, y: 23.174234, z: 31.990936}
 >>>>>>> 4a5b6357de74b5a3f65b55faaf32cc20e1a9060d
 =======
   m_LocalPosition: {x: 0.29454893, y: 1.27, z: -3.6135595}
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> parent of c91c0fe (map)
+=======
+  m_LocalScale: {x: 31.990936, y: 31.990936, z: 31.990936}
+>>>>>>> parent of 4a5b635 (nbnbnn)
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
